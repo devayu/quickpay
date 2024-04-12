@@ -1,19 +1,18 @@
 {
-  "name": "@repo/db",
+  "name": "@repo/store",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx prisma studio"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@prisma/client": "^5.12.1",
-    "prisma": "^5.12.1"
+    "recoil": "^0.7.7"
   },
   "exports": {
-    "./client": "./index.ts"
+    "./useBalance": "./src/hooks/useBalance.ts"
   }
 }
